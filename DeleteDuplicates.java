@@ -28,7 +28,7 @@ class DeleteDuplicates{                                                         
         }
         return head;
     }
-    public class ListNode {														                                // definition for singly-linked list.
+    public class ListNode {											// definition for singly-linked list.
 		final int val;
 		ListNode next = null;
 		ListNode(int val) { this.val = val; }
