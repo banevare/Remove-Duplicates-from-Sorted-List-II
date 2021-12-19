@@ -1,4 +1,4 @@
-var deleteDuplicates = function(head) {                                                      // deletes duplicates from a singly-linked list
+var deleteDuplicates = function(head) {                                                                     // deletes duplicates from a singly-linked list
     if (head == null || head.next == null) return head;
     var a = head, b = a.next, c = b.next;
     while (a.val == b.val){                                                                                 // duplicates @ beginning
