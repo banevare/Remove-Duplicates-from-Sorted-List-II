@@ -34,7 +34,7 @@ class DeleteDuplicates{                                                         
 		ListNode(int val) { this.val = val; }
 		ListNode(int val, ListNode prev) { this.val = val; if(prev != null) prev.next = this; }
 	}
-    public String print(final ListNode head){									                                // printing method of our singly-linked list
+    public String print(final ListNode head){									 // printing method of our singly-linked list
 		String s = null;
 		ListNode p = head;
 		while(p != null){
